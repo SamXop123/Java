@@ -24,5 +24,6 @@ public class RockPaperScissors {
         } else {
             System.out.println("You lose!");
         }
+        scanner.close();
     }
 }
