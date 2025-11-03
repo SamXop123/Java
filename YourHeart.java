@@ -1,7 +1,7 @@
 
 // Heart Pattern
 
-public class Pattern {
+public class YourHeart {
     public static void main(String[] args) {
       
         final int size = 4  ;  

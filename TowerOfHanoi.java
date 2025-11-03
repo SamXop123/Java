@@ -1,4 +1,4 @@
-public class TowerHanoi {
+public class TowerOfHanoi {
 
     public static void towerOfHanoi(int n, String src, String helper, String dest) {
 

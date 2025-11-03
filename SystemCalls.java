@@ -1,4 +1,4 @@
-public class SystemInfo {
+public class SystemCalls {
     public static void main(String[] args) {
 
         System.out.println("Operating System: " + System.getProperty("os.name"));

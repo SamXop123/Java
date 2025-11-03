@@ -1,9 +1,9 @@
-public class Linked {
+public class SinglyLinkedList {
 
     Node head;
     private int size;
 
-    Linked() {
+    SinglyLinkedList() {
         this.size = 0;
     }
 
@@ -116,7 +116,7 @@ public class Linked {
 
     public static void main(String[] args) {
         
-        Linked list = new Linked();  // Initialized with main class name
+        SinglyLinkedList list = new SinglyLinkedList();  // Initialized with main class name
         list.addFirst("A");
         list.addFirst("B");
         list.addFirst("C");
