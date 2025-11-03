@@ -1,8 +1,7 @@
-import java.io.*;
 import java.util.*;
 import java.util.Arrays;
 
-public class Main {
+public class Anagrams {
 
     public static void checkAnagrams(String str1, String str2) {
 
