@@ -1,4 +1,4 @@
-package Java.DSA.Sorting;
+package DSA.Sorting;
 
 /*
 notes:
