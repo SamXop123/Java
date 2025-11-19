@@ -10,7 +10,7 @@ and then reverse the part after idx to make it the smallest possible.
 this gives the immediate next permutation.
 
 understand with the following example:
-[2 3 5 4 1 0 0]
+[2 1 5 4 3 0 0]
 */
 
 // =======================================================
@@ -28,7 +28,7 @@ public class NextPermutation {
                 break;
             }
         }
-        // After this part "idx = 1" -> (nums[idx]=3)
+        // After this part "idx = 1" -> (nums[idx]=1)
 
 
         // if no such index found (edge case), then we can simply reverse the array and it will be the answer 
@@ -46,7 +46,7 @@ public class NextPermutation {
 
 
         // find the number just greater than nums[idx] so that we can swap it because it will be the foundation of our next permutation. 
-        // we can do this by iterating from right to left and as we find a bigger number then we can swap it with nums[idx[
+        // we can do this by iterating from right to left and as we find a bigger number then we can swap it with nums[idx]
         for(int i = n-1; i > idx; i--) {
             if(nums[i] > nums[idx]) {
                 int temp = nums[idx];
@@ -55,7 +55,7 @@ public class NextPermutation {
                 break;
             }
         }
-        // After this part resulting nums will be [2 1 5 4 3 0 0]
+        // After this part resulting nums will be [2 3 5 4 1 0 0]
 
 
         // and now finally we can reverse the part after nums[idx] so to get the next permutation, 
@@ -71,7 +71,7 @@ public class NextPermutation {
             nums[i] = rev[pointer++];
         }
 
-        // final nums array - > [2 1 0 0 3 4 5]
+        // final nums array - > [2 3 0 0 1 4 5]
 
     }
 }
