@@ -21,7 +21,6 @@ public class MergeIntervals {
             (a, b) -> Integer.compare(a[0], b[0])
         );
 
-        int n = intervals.length;
         List<List<Integer>> res = new ArrayList<>();
 
         for(int[] arr : intervals) {
