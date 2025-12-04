@@ -49,10 +49,19 @@ S = (all correct numbers) - Y + X
 
 Therefore,
 S = Sn - Y + X
-S − Sn = X − Y  {Equation-1}
+S − Sn = X − Y = D (Let) {Equation-1}
 
 ---------------
-Now,
+NOW:
+---------------
+
+S2n = sum of squares of numbers from 1 to N
+S2  = sum of squares of the given array
+
+The array is missing Y and has X twice.
+
+So:
+S2 = S2n - Y² + X²
 
 S2 - S2n = X² - Y²     {Equation-2}
 
@@ -64,10 +73,12 @@ S2 - S2n = (X - Y)(X + Y)
 
 X + Y = (S2 - S2n) / (X - Y)      {Equation-3}
 
-X - Y = D
+X - Y = D    
 X + Y = E     (E = that quotient from eq-3)
 
 Two equations, two unknowns.
+The universe smiles.
+
 Solve them,
 X = ( (X - Y) + (X + Y) ) / 2  = (D + E) / 2
 Y = X - D
