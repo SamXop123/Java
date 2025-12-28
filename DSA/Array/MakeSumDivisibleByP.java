@@ -1,4 +1,4 @@
-DSA.package.Array;
+package DSA.Array;
 
 /*
 notes:
