@@ -1,5 +1,7 @@
 package DSA.Array;
 
+import java.util.HashMap;
+
 /*
 notes:
 this finds the smallest subarray that needs to be removed so that the remaining sum is divisible by p. 
@@ -18,7 +20,7 @@ class Solution {
         int target = (int)(totalSum % p);
         if (target == 0) return 0;
 
-        Map<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);
 
         int prefix = 0;
