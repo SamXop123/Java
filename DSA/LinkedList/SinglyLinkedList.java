@@ -1,3 +1,5 @@
+package DSA.LinkedList;
+
 /*
 notes:
 this is a simple singly linked list implementation. 

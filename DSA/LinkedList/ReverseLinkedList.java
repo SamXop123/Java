@@ -1,3 +1,6 @@
+package DSA.LinkedList;
+
+
 public class ReverseLinkedList {
     
     Node head;
