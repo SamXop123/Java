@@ -1,6 +1,6 @@
 package DSA.LinkedList;
 
-/*
+
 class ListNode {
     int data;
     ListNode prev, next;
@@ -10,7 +10,6 @@ class ListNode {
         this.next = null;
     }
 }
-*/
 
 class Solution {
     public ListNode reverseDLL(ListNode head) {
