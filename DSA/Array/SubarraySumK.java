@@ -10,7 +10,7 @@ the map keeps track of how many times each prefix sum appeared, so count is upda
 overall runs in O(n) time since each element is processed once.
 */
 
-class Solution {
+class SubarraySumK {
     public int subarraySum(int[] nums, int k) {
         
         int count = 0;
